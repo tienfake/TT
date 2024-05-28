@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.dropMenu{
+    @apply absolute top-10 z-50 w-full bg-white text-center; 
+}
+.chamBut{
+    @apply w-3 h-3 rounded-full bg-blue-500 text-white;
+}
