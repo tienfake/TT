@@ -14,3 +14,21 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
     });
 });
+var swiper = new Swiper(".slideSwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+
+    navigation: {
+        nextEl: ".NextBut",
+        prevEl: ".preBut",
+    },
+});
+
+var swiper = new Swiper(".thietBiSwiper", {
+    slidesPerView: 6,
+    spaceBetween: 30,
+    navigation: {
+        nextEl: ".NextButtb",
+        prevEl: ".preButtb",
+    },
+});
