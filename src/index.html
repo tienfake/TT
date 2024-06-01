@@ -24,7 +24,8 @@
                     <div class="logo ">
                         <a href=""><img src="../public/img/logo.png" alt=""></a>
                     </div>
-                    <ul id="dropMenu" class="hidden lg:flex lg:items-center space-x-4 font-bold xl:text-sm ">
+                    <ul id="dropMenu"
+                        class="hidden lg:flex lg:items-center space-x-2 lg:space-x-4 font-bold  xl:text-sm ">
                         <li class=""><a href="#">Giới thiệu</a></li>
                         <li><a href="#">Đối tượng khách hàng</a></li>
                         <li><a href="#">Quy trình</a></li>
@@ -33,9 +34,9 @@
                         <li><a href="#">Đội ngũ bác sĩ</a></li>
                         <li><a href="#">Hình ảnh & Video</a></li>
                     </ul>
-                    <ul class=" hidden lg:flex lg:justify-end">
+                    <ul class=" hidden lg:flex lg:justify-end ">
                         <a href=""> <button
-                                class="bg-amber-500 h-[40px] p-2 rounded-[40px] text-white shadow-red-300 hover:bg-emerald-500"><i
+                                class="bg-amber-500 h-[40px] p-2 rounded-[40px] text-white shadow-red-300 hover:bg-bl"><i
                                     class="fa-solid fa-phone"></i> Hotline: 1900 1806</button></a>
                     </ul>
                     <div class="lg:hidden">
@@ -45,211 +46,162 @@
             </header>
         </div>
     </section>
-    <section class="mb-10">
+    <section class="mb-2 lg:mb-10">
         <div class="container">
             <div class="banner">
                 <img src="../public/img/banner.png" class="w-auto h-auto" alt="">
             </div>
         </div>
     </section>
-    <section class="mb-20">
+    <section class="">
         <div class="container mx-auto">
-            <div class="flex flex-col w-full lg:flex-row lg:justify-between lg:items-center">
-                <div class=" w-full p-2 lg:w-1/3 lg:p-4">
+            <div class="flex flex-col w-full lg:flex-row ">
+                <div class="w-full p-2 lg:w-1/3 lg:p-4 mt-4">
                     <div class="grid grid-cols-1 mb-5">
-                        <p class="font-bold text-xl lg:text-3xl mb-3 font-roboto ">Chương trình ưu đãi:</p>
-                        <p class="font-roboto text-gray-400 text-xs lg:text-sm">
+                        <p class="font-bold text-2xl text-center lg:text-left lg:text-3xl mb-3 font-roboto">Chương trình
+                            ưu đãi:</p>
+                        <p class="font-roboto text-center lg:text-left text-gray-400 text-sm">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit lis iaculis ac felis porta.
-                            Vulputate
-                            tellus sapien pat sit ipsum molestie pharetran da volutpat semper.
+                            Vulputate tellus sapien pat sit ipsum molestie pharetran da volutpat semper.
                         </p>
                     </div>
                     <div class="flex space-x-2">
                         <button
-                            class="preBut w-[20px] h-[20px] lg:w-[30px] lg:h-[30px] rounded-full bg-orange-500 flex justify-center items-center text-white">
+                            class="preBut w-[20px] h-[20px] p-4  lg:w-[30px] lg:h-[30px] rounded-full bg-orange-500 flex justify-center items-center text-white hover:bg-gradient-to-r from-green-400 to-blue-500">
                             <i class="fa-solid fa-chevron-left"></i>
                         </button>
                         <button
-                            class="NextBut w-[20px] h-[20px] lg:w-[30px] lg:h-[30px] rounded-full bg-orange-500 flex justify-center items-center text-white">
+                            class="NextBut w-[20px] h-[20px] p-4 lg:w-[30px] lg:h-[30px] rounded-full bg-orange-500 flex justify-center items-center text-white hover:bg-gradient-to-r from-green-400 to-blue-500">
                             <i class="fa-solid fa-chevron-right"></i>
                         </button>
                     </div>
                 </div>
 
-                <div class="swiper slideSwiper w-full lg:w-2/3">
-                    <div class="swiper-wrapper ">
-                        <div class="swiper-slide mb-5 relative ">
-                            <img src="../public/img/slide.png" class="w-auto h-auto" alt="">
-                            <div class="flex justify-center items-center w-1/3 lg:w-auto shadow">
-                                <div class="p-4 lg:p-6 rounded-t-3xl rounded-br-3xl border bg-white absolute top-3/4 left-0 group hover:bg-teal-500 hover:text-white">
-                                    <p class="font-arima font-bold text-xl lg:text-2xl text-blue-500  text-center">Ưu đãi 50%</p>
-                                    <p class="text-sm lg:text-lg text-black  font-roboto font-bold text-center ">Gói khám thai tổng quát</p>
-                                    <p class="text-xs lg:text-sm font-roboto 0 text-center text-gray-500">
+                <div class="swiper slideSwiper flex justify-between items-center w-full lg:w-2/3 lg:mx-0">
+                    <div class="swiper-wrapper mx-3 lg:mx-0  h-auto pb-[60px] lg:pb-[270px]">
+
+                        <div class="swiper-slide mb-5 flex flex-col items-center  relative">
+                            <div>
+                                <img src="../public/img/slide.png" class="w-auto h-auto" alt="">
+                            </div>
+
+                            <div class="flex flex-row justify-center items-center w-full lg:w-auto shadow mt-4 lg:mt-8">
+                                <div
+                                    class="p-2 rounded-t-3xl rounded-br-3xl border bg-white hover:bg-gradient-to-r from-green-400 to-blue-500 absolute top-[230px] transform -translate-y-1/2">
+                                    <p class="font-arima font-bold text-xl lg:text-2xl text-blue-500 text-center">Ưu đãi
+                                        50%</p>
+                                    <p class="text-sm lg:text-lg text-black font-roboto font-bold text-center">Gói khám
+                                        thai tổng quát</p>
+                                    <p class="text-xs lg:text-sm font-roboto text-center text-gray-500">
                                         Lorem ipsum dolor sit amet tarancebe consectetur adipiscing elit turpis.
                                     </p>
                                     <a href="">
-                                        <button class="border border-amber-600 p-2 lg:p-3 rounded-2xl mt-2 lg:mt-4 w-full text-xs lg:text-sm font-roboto hover:text-white hover:bg-orange-500 text-orange-500">
-                                            Đăng ký nhận ưu đãi
-                                        </button>
-                                    </a>  
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="swiper-slide relative mb-5">
-                            <img src="../public/img/slide.png" alt="">
-                            <div class="flex justify-center items-center w-1/3 lg:w-auto shadow">
-                                <div class="p-4 lg:p-6 rounded-t-3xl border bg-white absolute top-3/4 left-0">
-                                    <p class="font-arima font-bold text-xl lg:text-2xl text-blue-500 text-center">Ưu đãi
-                                        50%</p>
-                                    <p class="text-sm lg:text-lg text-black font-roboto font-bold text-center">Gói khám
-                                        thai tổng quát</p>
-                                    <p class="text-xs lg:text-sm font-roboto text-gray-400 text-center">
-                                        Lorem ipsum dolor sit amet tarancebe consectetur adipiscing elit turpis.
-                                    </p>
-                                    <button
-                                        class="border border-amber-600 p-2 lg:p-3 rounded-2xl mt-2 lg:mt-4 w-full text-xs lg:text-sm font-roboto text-amber-600">
-                                        Đăng ký nhận ưu đãi
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide relative mb-5">
-                            <img src="../public/img/slide.png" alt="">
-                            <div class="flex justify-center items-center w-full lg:w-auto shadow">
-                                <div class="p-4 lg:p-6 rounded-t-3xl border bg-white absolute top-3/4 left-0">
-                                    <p class="font-arima font-bold text-xl lg:text-2xl text-blue-500 text-center">Ưu đãi
-                                        50%</p>
-                                    <p class="text-sm lg:text-lg text-black font-roboto font-bold text-center">Gói khám
-                                        thai tổng quát</p>
-                                    <p class="text-xs lg:text-sm font-roboto text-gray-400 text-center">
-                                        Lorem ipsum dolor sit amet tarancebe consectetur adipiscing elit turpis.
-                                    </p>
-                                    <button
-                                        class="border border-amber-600 p-2 lg:p-3 rounded-2xl mt-2 lg:mt-4 w-full text-xs lg:text-sm font-roboto text-amber-600">
-                                        Đăng ký nhận ưu đãi
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide relative mb-5">
-                            <img src="../public/img/slide.png" alt="">
-                            <div class="flex justify-center items-center w-full lg:w-auto shadow">
-                                <div class="p-4 lg:p-6 rounded-t-3xl border bg-white absolute top-3/4 left-0">
-                                    <p class="font-arima font-bold text-xl lg:text-2xl text-blue-500 text-center">Ưu đãi
-                                        50%</p>
-                                    <p class="text-sm lg:text-lg text-black font-roboto font-bold text-center">Gói khám
-                                        thai tổng quát</p>
-                                    <p class="text-xs lg:text-sm font-roboto text-gray-400 text-center">
-                                        Lorem ipsum dolor sit amet tarancebe consectetur adipiscing elit turpis.
-                                    </p>
-                                    <button
-                                        class="border border-amber-600 p-2 lg:p-3 rounded-2xl mt-2 lg:mt-4 w-full text-xs lg:text-sm font-roboto text-amber-600">
-                                        Đăng ký nhận ưu đãi
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide relative mb-5">
-                            <img src="../public/img/slide.png" alt="">
-                            <div class="flex justify-center items-center w-full lg:w-auto shadow">
-                                <div class="p-4 lg:p-6 rounded-t-3xl border bg-white absolute top-3/4 left-0">
-                                    <p class="font-arima font-bold text-xl lg:text-2xl text-blue-500 text-center">Ưu đãi
-                                        50%</p>
-                                    <p class="text-sm lg:text-lg text-black font-roboto font-bold text-center">Gói khám
-                                        thai tổng quát</p>
-                                    <p class="text-xs lg:text-sm font-roboto text-gray-400 text-center">
-                                        Lorem ipsum dolor sit amet tarancebe consectetur adipiscing elit turpis.
-                                    </p>
-                                    <button
-                                        class="border border-amber-600 p-2 lg:p-3 rounded-2xl mt-2 lg:mt-4 w-full text-xs lg:text-sm font-roboto text-amber-600">
-                                        Đăng ký nhận ưu đãi
-                                    </button>
-                                </div>
-                            </div>
-
-
-                        </div>
-                        <div class="swiper-slide relative mb-5">
-                            <img src="../public/img/slide.png" alt="">
-                            <div class="flex justify-center items-center w-full lg:w-auto shadow">
-                                <div
-                                    class="p-4 lg:p-6 rounded-t-3xl rounded-br-3xl border bg-white absolute top-3/4 left-0">
-                                    <p class="font-arima font-bold text-xl lg:text-2xl text-blue-500 text-center">Ưu đãi
-                                        50%</p>
-                                    <p class="text-sm lg:text-lg text-black font-roboto font-bold text-center">Gói khám
-                                        thai tổng quát</p>
-                                    <p class="text-xs lg:text-sm font-roboto text-gray-400 text-center">
-                                        Lorem ipsum dolor sit amet tarancebe consectetur adipiscing elit turpis.
-                                    </p>
-                                    <button
-                                        class="border bg-orange-500  p-2 lg:p-2 rounded-2xl mt-2 lg:mt-4 w-full text-xs lg:text-sm font-roboto text-amber-600">
-                                        Đăng ký nhận ưu đãi
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="swiper-slide relative mb-5">
-                                <img src="../public/img/slide.png" alt="">
-                                <div class="flex justify-center items-center w-1/3 lg:w-auto shadow">
-                                    <div class="p-4 lg:p-6 rounded-t-3xl border bg-white absolute top-3/4 left-0">
-                                        <p class="font-arima font-bold text-xl lg:text-2xl text-blue-500 text-center">Ưu
-                                            đãi
-                                            50%</p>
-                                        <p class="text-sm lg:text-lg text-black font-roboto font-bold text-center">Gói
-                                            khám
-                                            thai tổng quát</p>
-                                        <p class="text-xs lg:text-sm font-roboto text-gray-400 text-center">
-                                            Lorem ipsum dolor sit amet tarancebe consectetur adipiscing elit turpis.
-                                        </p>
                                         <button
-                                            class="border bg-orange-500  p-2 lg:p-3 rounded-2xl mt-2 lg:mt-4 w-full text-xs lg:text-sm font-roboto text-amber-600">
+                                            class="border border-amber-600 p-2 lg:p-3 rounded-3xl mt-2 lg:mt-4 w-full text-xs lg:text-sm font-roboto hover:text-white hover:bg-orange-500 text-orange-500">
                                             Đăng ký nhận ưu đãi
                                         </button>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide relative mb-5">
-                            <img src="../public/img/slide.png" alt="">
-                            <div class="flex justify-center items-center w-full lg:w-auto shadow">
-                                <div class="p-4 lg:p-6 rounded-t-3xl border bg-white absolute top-3/4 left-0">
-                                    <p class="font-arima font-bold text-xl lg:text-2xl text-blue-500 text-center">Ưu
-                                        đãi 50%</p>
-                                    <p class="text-sm lg:text-lg text-black font-roboto font-bold text-center">Gói
-                                        khám thai tổng quát</p>
-                                    <p class="text-xs lg:text-sm font-roboto text-gray-400 text-center">
+                        <div class="swiper-slide mb-5 flex flex-col items-center  relative">
+                            <div>
+                                <img src="../public/img/slide.png" class="w-auto h-auto" alt="">
+                            </div>
+
+                            <div class="flex flex-row justify-center items-center w-full lg:w-auto shadow mt-4 lg:mt-8">
+                                <div
+                                    class="p-2 rounded-t-3xl rounded-br-3xl border bg-white hover:bg-gradient-to-r from-green-400 to-blue-500 absolute top-[230px] transform -translate-y-1/2">
+                                    <p class="font-arima font-bold text-xl lg:text-2xl text-blue-500 text-center">Ưu đãi
+                                        50%</p>
+                                    <p class="text-sm lg:text-lg text-black font-roboto font-bold text-center">Gói khám
+                                        thai tổng quát</p>
+                                    <p class="text-xs lg:text-sm font-roboto text-center text-gray-500">
                                         Lorem ipsum dolor sit amet tarancebe consectetur adipiscing elit turpis.
                                     </p>
-                                    <button
-                                        class="border border-amber-600 p-2 lg:p-3 rounded-2xl mt-2 lg:mt-4 w-full text-xs lg:text-sm font-roboto text-amber-600">
-                                        Đăng ký nhận ưu đãi
-                                    </button>
+                                    <a href="">
+                                        <button
+                                            class="border border-amber-600 p-2 lg:p-3 rounded-3xl mt-2 lg:mt-4 w-full text-xs lg:text-sm font-roboto hover:text-white hover:bg-orange-500 text-orange-500">
+                                            Đăng ký nhận ưu đãi
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
+                        <div class="swiper-slide flex flex-col items-center  relative">
+                            <div>
+                                <img src="../public/img/slide.png" class="w-auto h-auto" alt="">
+                            </div>
+
+                            <div class="flex flex-row justify-center items-center w-full lg:w-auto shadow mt-4 lg:mt-8">
+                                <div
+                                    class="p-2 rounded-t-3xl rounded-br-3xl border bg-white hover:bg-gradient-to-r from-green-400 to-blue-500 absolute top-[230px] transform -translate-y-1/2">
+                                    <p class="font-arima font-bold text-xl lg:text-2xl text-blue-500 text-center">Ưu đãi
+                                        50%</p>
+                                    <p class="text-sm lg:text-lg text-black font-roboto font-bold text-center">Gói khám
+                                        thai tổng quát</p>
+                                    <p class="text-xs lg:text-sm font-roboto text-center text-gray-500">
+                                        Lorem ipsum dolor sit amet tarancebe consectetur adipiscing elit turpis.
+                                    </p>
+                                    <a href="">
+                                        <button
+                                            class="border border-amber-600 p-2 lg:p-3 rounded-3xl mt-2 lg:mt-4 w-full text-xs lg:text-sm font-roboto hover:text-white hover:bg-orange-500 text-orange-500">
+                                            Đăng ký nhận ưu đãi
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide mb-5 flex flex-col items-center  relative">
+                            <div>
+                                <img src="../public/img/slide.png" class="w-auto h-auto" alt="">
+                            </div>
+
+                            <div class="flex flex-row justify-center items-center w-full lg:w-auto shadow mt-4 lg:mt-8">
+                                <div
+                                    class="p-2 rounded-t-3xl rounded-br-3xl border bg-white hover:bg-gradient-to-r from-green-400 to-blue-500 absolute top-[230px] transform -translate-y-1/2">
+                                    <p class="font-arima font-bold text-xl lg:text-2xl text-blue-500 text-center">Ưu đãi
+                                        50%</p>
+                                    <p class="text-sm lg:text-lg text-black font-roboto font-bold text-center">Gói khám
+                                        thai tổng quát</p>
+                                    <p class="text-xs lg:text-sm font-roboto text-center text-gray-500">
+                                        Lorem ipsum dolor sit amet tarancebe consectetur adipiscing elit turpis.
+                                    </p>
+                                    <a href="">
+                                        <button
+                                            class="border border-amber-600 p-2 lg:p-3 rounded-3xl mt-2 lg:mt-4 w-full text-xs lg:text-sm font-roboto hover:text-white hover:bg-orange-500 text-orange-500">
+                                            Đăng ký nhận ưu đãi
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+
     <section class="mb-10">
         <div class="container">
-            <div class="dichVu mx-4 w-auto  ">
+            <div class="dichVu mx-4 w-auto">
                 <div class="lg:flex lg:flex-row">
                     <div class="lg:w-1/2 lg:order-first">
                         <img src="../public/img/dichvu.png" class="w-full h-auto object-cover mx-auto lg:object-contain"
                             alt="">
                     </div>
-                    <div class="w-full ms-5 mt-5 lg:w-1/2 lg:mt-10 ">
+                    <div class="w-full mx-3 lg:w-1/2 lg:mt-10 lg:mx-5 ">
                         <div class="grid grid-cols-1">
-                            <div class="">
-                                <p class="font-bold font-roboto text-3xl lg:mt-0">Dịch vụ thai sản trọn
+                            <div class="mt-2 lg:mt-0">
+                                <p class="font-bold font-roboto text-center lg:text-left text-3xl lg:mt-0">Dịch vụ thai
+                                    sản trọn
                                     gói</p>
                             </div>
                             <div>
-                                <p class="text-sm text-gray-400 w-full lg:mt-3">
+                                <p
+                                    class="text-[15px] lg:text-sm text-gray-400 w-full text-center lg:text-left mt-2 lg:mt-3">
                                     Mang thai và sinh nở là một hành trình vô cùng kỳ diệu nhưng cũng lắm mệt mỏi, áp
                                     lực,
                                     thậm chí là nguy hiểm. Thấu hiểu nỗi niềm đó, dịch vụ thai sản trọn gói Phương Đông
@@ -259,44 +211,45 @@
                                     đời.
                                 </p>
                             </div>
-                            <div class="mx-0 ">
+                            <div class="mx-2 flex justify-center lg:flex lg:justify-start">
                                 <div class=" rounded-lg mt-2 mb-4">
-                                    <p class="leading-normal">
+                                    <p class="leading-normal ">
                                         <span class="">&nbsp;&nbsp;</span>
                                         <strong
-                                            class="font-bold font-roboto  my-2 inline-block text-sm text-center"><button
-                                                class="chamBut"></button>
-                                            Đội ngũ bác sĩ sản khoa giàu kinh nghiệm</strong><br>
-                                        &emsp;
+                                            class="font-bold font-roboto my-2 inline-block text-sm text-center"><button
+                                                class="chamBut"></button> Đội ngũ bác sĩ sản khoa giàu kinh
+                                            nghiệm</strong><br>
+                                        <span class="ml-4">&emsp;</span>
                                         <strong class="font-bold font-roboto text-sm my-2 inline-block"><button
-                                                class="chamBut"></button>
-                                            Chăm sóc mẹ và bé toàn diện trước trong và sau sinh</strong><br>
-                                        &nbsp;&nbsp;
+                                                class="chamBut  "></button> Chăm sóc mẹ và bé toàn diện trước trong và
+                                            sau sinh</strong><br>
+                                        <span class="">&nbsp;&nbsp;</span>
                                         <strong class="font-bold font-roboto text-sm my-2 inline-block"><button
-                                                class="chamBut"></button>
-                                            Không gian đẳng cấp với trang thiết bị y tế hiện đại</strong><br>
-                                        &emsp;
+                                                class="chamBut"></button> Không gian đẳng cấp với trang thiết bị y tế
+                                            hiện đại</strong><br>
+                                        <span class="ml-4">&emsp;</span>
                                         <strong class="font-bold font-roboto text-sm my-2 inline-block"><button
-                                                class="chamBut"></button>
-                                            Đi sinh sung sướng như đi nghỉ dưỡng</strong><br>
-                                        &nbsp;&nbsp;
+                                                class="chamBut"></button> Đi sinh sung sướng như đi nghỉ
+                                            dưỡng</strong><br>
+                                        <span class="">&nbsp;&nbsp;</span>
                                         <strong class="font-bold font-roboto text-sm my-2 inline-block"><button
-                                                class="chamBut"></button>
-                                            Con yêu chào đời với những điều kiện tốt nhất</strong><br>
-                                        &emsp;
+                                                class="chamBut"></button> Con yêu chào đời với những điều kiện tốt
+                                            nhất</strong><br>
+                                        <span class="ml-4">&emsp;</span>
                                         <strong class="font-bold font-roboto text-sm my-2 inline-block"><button
-                                                class="chamBut"></button>
-                                            Thanh toán đồng thời bảo hiểm Y tế, bảo hiểm bảo lãnh</strong><br>
-                                        &nbsp;&nbsp;
+                                                class="chamBut"></button> Thanh toán đồng thời bảo hiểm Y tế, bảo hiểm
+                                            bảo lãnh</strong><br>
+                                        <span class="">&nbsp;&nbsp;</span>
                                         <strong class="font-bold font-roboto text-sm my-2 inline-block"><button
-                                                class="chamBut"></button>
-                                            Bảng giá các gói sinh tại Bệnh viện Phương Đông</strong><br>
+                                                class="chamBut"></button> Bảng giá các gói sinh tại Bệnh viện Phương
+                                            Đông</strong><br>
                                     </p>
+
                                 </div>
                             </div>
-                            <div class="justify-between items-center mt 4">
+                            <div class=" flex justify-center  lg:flex lg:justify-start mt-4">
                                 <button
-                                    class="w-full lg:w-[120px] lg:h-11 rounded-full bg-orange-500 text-white shadow font-roboto">Liên
+                                    class="w-[130px] h-12  lg:w-[120px] lg:h-11 rounded-full bg-orange-500 text-white shadow font-roboto hover:bg-gradient-to-r from-green-400 to-blue-500">Liên
                                     hệ</button>
                             </div>
                         </div>
@@ -335,7 +288,8 @@
                 </div>
                 <div class="overflow-x-auto rounded-t-3xl border border-gray-400 shadow">
                     <table class="min-w-full bg-white border">
-                        <thead class="bg-green-700 text-white font-roboto uppercase  text-[12px] lg:text-[16px]">
+                        <thead
+                            class="bg-gradient-to-r from-green-400 to-blue-500 text-white font-roboto uppercase  text-[12px] lg:text-[16px]">
                             <tr>
                                 <th class="px-4 py-2 border border-gray-300">STT</th>
                                 <th class="px-4 py-2 border border-gray-300">Tên Dịch Vụ</th>
@@ -427,16 +381,17 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="flex justify-between items-center w-full bg-green-700 py-2 rounded-b-3xl">
-                    <div class="flex basis-1/2 justify-end">
-                        <p class="text-center  text-white text-[10px] mr-2 sm:text-lg sm:mr-5">
-                            <i class="fa-solid fa-phone"></i> Hotline:
-                            <a href="tel:19001806" class="">1900 1806</a>
+                <div
+                    class="flex justify-between items-center w-full bg-gradient-to-r from-green-400 to-blue-500 py-2 rounded-b-3xl px-10">
+                    <div class="flex basis-1/2 justify-center ">
+                        <p class="text-center  text-white text-[10px] mr-2 sm:text-lg ">
+
+                            <a href="tel:19001806" class=""><i class="fa-solid fa-phone"></i> Hotline: 1900 1806</a>
                         </p>
                     </div>
-                    <div class="flex basis-1/2">
-                        <p class=" text-white text-[10px] ms-1 sm:text-lg sm:ms-5">
-                            <i class="fa-solid fa-globe"></i> https://benhvienphuongdong.vn/
+                    <div class="flex basis-1/2 justify-center">
+                        <p class=" text-white text-[9px] sm:text-lg ">
+                            <a href=""><i class="fa-solid fa-globe"></i> https://benhvienphuongdong.vn/</a>
                         </p>
                     </div>
                 </div>
@@ -448,26 +403,27 @@
     <section class="mb-10">
         <div class="container">
             <div class="flex flex-col lg:flex-row justify-between items-center relative lg:static">
-                <div class="lg:basis-7/12 w-full lg:w-auto">
-                    <img src="../public/img/me_om_con.png" alt="" class="w-full lg:w-auto">
+                <div class="lg:basis-7/12 w-full lg:w-auto ">
+                    <img src="../public/img/me_om_con.png" alt="" class="w-[95%] mx-3 mr-3 lg:w-auto">
                 </div>
                 <div
-                    class="lg:basis-5/12 border bg-white shadow p-5 rounded-tl-3xl lg:mr-20 lg:absolute lg:top-1/5 lg:left-2/4 w-full lg:w-auto mt-10 lg:mt-0">
+                    class="lg:basis-5/12 lg:border bg-white shadow p-5 rounded-tl-3xl lg:mr-20 lg:absolute lg:top-1/5 lg:left-2/4 w-full lg:w-auto mt-5 lg:mt-0">
                     <div class="grid grid-cols-1 text-center lg:text-left">
                         <div>
-                            <p class="font-roboto  font-bold mb-5 text-[18px] lg:text-[26px]">Bệnh viên Phương Đông tiên
+                            <p class="font-roboto  font-bold mb-5 text-[20px] lg:text-[26px]">Bệnh viên Phương Đông tiên
                                 phong
                                 trong dịch vụ thai sản trọn gói</p>
                         </div>
                         <div>
-                            <p class="font-roboto text-[12px] text-gray-500 mb-5">Lorem ipsum dolor sit amet,
+                            <p class="font-roboto text-[14px] lg:text-[14px] text-gray-500 mb-5">Lorem ipsum dolor sit
+                                amet,
                                 consectetur adipiscing elit. Suspendisse tale tincidunt
                                 tortor lobortis pretium nulla quis sem nullam rhoncus. Ornare et dui sit massa. Volutpat
                                 porta leo pulvinar adipiscing gestas metus </p>
                         </div>
                         <div>
                             <button
-                                class=" rounded-full bg-orange-500 text-white shadow font-roboto w-100[px] h-7 text-xs p-1 lg:w-[120px] h-11">Đăng
+                                class=" rounded-full bg-orange-500 text-white shadow font-roboto w-[100px] h-7 text-sm p-2 lg:w-[120px] lg:h-11">Đăng
                                 kí tư vấn
                             </button>
                         </div>
@@ -485,16 +441,34 @@
                             thiết bị</p>
                     </div>
                     <div class="flex basis-1/2 justify-center my-3 space-x-4">
-                        <button class="preButtb w-[30px] h-[30px] rounded-full bg-orange-500  text-white"><i
+                        <button class="preButtb w-[30px] h-[30px] rounded-full bg-orange-500  text-white hover:bg-gradient-to-r from-green-400 to-blue-500"><i
                                 class="fa-solid fa-chevron-left"></i></button>
-                        <button class="NextButtb w-[30px] h-[30px] rounded-full bg-orange-500  text-white"><i
+                        <button class="NextButtb w-[30px] h-[30px] rounded-full bg-orange-500  text-white hover:bg-gradient-to-r from-green-400 to-blue-500"><i
                                 class="fa-solid fa-chevron-right"></i></button>
                     </div>
                 </div>
 
-                <div class="flex justify-between items-center space-x-2 swiper-wrapper">
+                <div class="flex justify-between items-center space-x-2 swiper-wrapper mx-4 lg:mx-0">
                     <div class="swiper-slide">
-                        <img src="../public/img/thietbi1.png" alt="">
+                        <img src="../public/img/thietbi2.png" class="w-full h-auto" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../public/img/thietbi2.png" class="w-full h-auto" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../public/img/thietbi3.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../public/img/thietbi4.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../public/img/thietbi5.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../public/img/thietbi2.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../public/img/thietbi5.png" alt="">
                     </div>
                     <div class="swiper-slide">
                         <img src="../public/img/thietbi2.png" alt="">
@@ -509,46 +483,28 @@
                         <img src="../public/img/thietbi5.png" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="../public/img/thietbi6.png" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="../public/img/thietbi1.png" alt="">
-                    </div>
-                    <div class="swiper-slide">
                         <img src="../public/img/thietbi2.png" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="../public/img/thietbi3.png" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="../public/img/thietbi4.png" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="../public/img/thietbi5.png" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="../public/img/thietbi6.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <section class="mb-10">
-        <div class="container">
-            <div class="bacsi">
+        <div class="container ">
+            <div class="bacsi flex flex-col justify-between items-center">
                 <div class="flex flex-col lg:flex-row justify-between items-center w-full lg:w-[85%] mb-3 space-x-4 ">
                     <div class="flex">
                         <p class="font-roboto text-[20px] lg:text-[27px] font-bold">Đội ngũ bác sĩ bệnh viện đa khoa
                             Phương Đông</p>
                     </div>
                     <div class="flex">
-                        <a href=""> <button class="rounded-3xl bg-orange-500  text-white p-1 shadow text-xs mt-2"><i
+                        <a href=""> <button class="rounded-3xl bg-orange-500  text-white p-2 shadow text-xs mt-2"><i
                                     class="fa-solid fa-user-doctor"></i> Tìm bác sĩ</button></a>
 
                     </div>
                 </div>
-                <div class="flex justify-between items-center w-[85%] h-auto space-x-4">
-                    <div class="flex flex-col lg:flex-row basis-1/2 justify-between items-center">
+                <div class="flex justify-center w-[85%] h-auto space-x-4">
+                    <div class="flex flex-col  lg:flex-row basis-1/2 justify-between items-center">
                         <div class="flex">
                             <img src="../public/img/bs1.png" alt="">
 
@@ -650,50 +606,56 @@
     <section class="mb-20">
         <div class="container">
             <div class="flex flex-col lg:flex-row justify-between items-center w-full space-x-5 lg:w-[85%] ">
-                <div class="flex basis-1/2">
+                <div class="flex basis-1/2 mx-3">
                     <img src="../public/img/embe1.png" class="" alt="">
                 </div>
                 <div class="basis-1/2 py-5">
                     <div class="grid grid-cols-1 font-roboto">
                         <p class="text-[28px] font-bold">Chuyển dạ và sinh non có nguy hiểm?</p>
                         <p class="text-[16px] font-bold">Tính nguy hiểm của bệnh</p>
-                        <p class="text-[14px] text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <p class="text-[16px] lg:text-[14px] text-gray-500">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit.
                             Sapien, nec morbi mauris, turpis
                             fringilla condimentum urna sagittis estellus etiam nisl pretium</p>
                         <p class="text-[16px] font-bold">Các cấp độ</p>
-                        <p class="text-[14px] text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <p class="text-[16px] lg:text-[14px] text-gray-500">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit.
                             Sapien, nec morbi mauris, turpis
                             fringilla condimentum urna sagittis est. Id tortor odio posuere a cursus netus massa. Tellus
                             etiam nisl pretium feugiat nulla. Pulvinar nisl et suspendisse velit ornare sed dolor,
                             convallis dolor. Et, dignissim amet sed orci at amet id nulla mauris.</p>
                         <p class="text-[16px] font-bold">Giải pháp</p>
-                        <p class="text-[14px] text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <p class="text-[16px] lg:text-[14px] text-gray-500">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit.
                             Sapien, nec morbi mauris, turpis
                             fringilla condimentum urna sagittis est. Id tortor odio posuere a cursus netus</p>
                     </div>
                 </div>
             </div>
             <div class="flex flex-col lg:flex-row justify-between items-center w-full space-x-5 lg:w-[85%] ">
-                <div class="basis-[48%] py-5">
+                <div class="basis-[47%] py-5">
                     <div class="grid grid-cols-1 font-roboto ms-4">
                         <p class="text-[26px] font-bold">Dấu hiệu nhận biết chuyển dạ và sinh non:</p>
 
-                        <p class="text-[14px] text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <p class="text-[16px] lg:text-[14px] text-gray-500">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit.
                             Sapien, nec morbi mauris, turpis fringilla condimentum urna sagittis estellus etiam nisl
                             pretium</p>
 
-                        <p class="text-[14px] text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <p class="text-[16px] lg:text-[14px] text-gray-500">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit.
                             Sapien, nec morbi mauris, turpis fringilla condimentum urna sagittis est. Id tortor odio
                             posuere a cursus netus massa. Tellus etiam nisl pretium feugiat nulla. Pulvinar nisl et
                             suspendisse velit ornare sed dolor, convallis dolor. Et, dignissim amet sed orci at amet id
                             nulla mauris.</p>
-                        <p class="text-[14px] text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <p class="text-[16px] lg:text-[14px] text-gray-500">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit.
                             Amet, odio in turpis nunc mollis diam viverra dictum. Tortor sed sapien ut tellus. Nunc
                             etiam consectetur consectetur amet taranlete pellentesque varius vel donec. Malesuada morbi
                             nisl cras turpis pretium. Habitant facilisis malesuada suscipit mus</p>
                     </div>
                 </div>
-                <div class="flex basis-[52%]">
+                <div class="flex basis-[51%]">
                     <img src="../public/img/embe2.png" class="" alt="">
                 </div>
             </div>
@@ -704,26 +666,36 @@
             <div
                 class="flex flex-col w-full space-x-4 lg:flex-row lg:justify-between lg:items-center lg:w-[85%] lg:space-x-4">
 
-                <div class="hidden lg:flex lg:basis-1/2">
-
-                    <iframe class=" w-[560px] h-[315px] rounded-3xl"
-                        src="https://www.youtube.com/embed/SB_1U8W7Llc?si=cP_CMtr8mjBlaq-7" title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="hidden lg:flex lg:basis-1/2 relative" id="image-container">
+                    <div>
+                        <img id="thumbnail" src="../public/img/youtube.png" alt="">
+                    </div>
+                    <div class="absolute top-1/3 left-1/2 "><img src="../public/img/iconyoutube.png" alt=" "
+                            class="w-[65px] h-[45px]"></div>
+                    <div id="youtube-video"
+                        class="absolute inset-0 flex justify-center items-center bg-black bg-opacity-75 z-10 hidden">
+                        <iframe class=" w-[560px] h-[315px] rounded-3xl"
+                            src="https://www.youtube.com/embed/SB_1U8W7Llc?si=cP_CMtr8mjBlaq-7"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    
                 </div>
                 <div class=" flex basis-1/2 ">
-                    <div class="grid grid-cols-1 font-roboto">
-                        <p class="text-[20px] lg:text-[25px] font-bold">Giải pháp an toàn hãy lựa chọn dịch vụ thai sản
+                    <div class="flex flex-col">
+                        <p class="text-[22px] lg:text-[25px] font-bold">Giải pháp an toàn hãy lựa chọn dịch vụ thai sản
                             trọn gói tại bệnh viện Phương Đông</p>
-                        <p class="text-[14px] text-gray-500 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        <p class=" text-[16px] lg:text-[15px] text-gray-500 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Mauris ut risus luctus donec Lorem
                             malesuada scelerisque euismod ullamcorper ac lacus aliquet quisque. Pulvinar aenean fusce
                             pulvinar elementum odio dolor lorem aenean quis. Ridiculus mattis.</p>
-
-                        <button
-                            class=" bg-orange-500  w-full lg:w-1/4 p-2 rounded-3xl shadow text-white text-sm lg:text-xs mt-3">
+                        <div class="flex justify-center lg:flex lg:justify-start">
+                            <button
+                            class=" bg-orange-500  w-[40%] lg:w-1/4 p-3 rounded-3xl shadow text-white text-sm lg:text-xs mt-3 hover:bg-gradient-to-r from-green-400 to-blue-500">
                             <i class="fa-solid fa-phone"></i> Liên hệ ngay </button>
+                        </div>
+                       
                     </div>
                 </div>
             </div>
@@ -735,25 +707,25 @@
             <div
                 class="flex flex-col w-full space-x-4 lg:flex-row lg:justify-between lg:items-center lg:w-[85%] lg:space-x-4">
                 <div class=" mx-4 justify-center lg:flex lg:basis-1/2">
-                    <div class="grid grid-cols-1 font-roboto">
+                    <div class="flex flex-col font-roboto">
                         <p class="text-[28px] font-bold">Tại sao bạn nên chọn gói dịch vụ thai sản tại bệnh viện Phương
                             Đông</p>
                         <p class="text-[16px] font-bold">Khám định kỳ với Bác sĩ sản khoa.</p>
-                        <p class="text-[14px] text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <p class="text-[16px] lg:text-[14px] text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Consequat risus </p>
                         <p class="text-[16px] font-bold">Chăm sóc thai kỳ cùng bác sĩ Sản khoa hàng đầu Khám định kỳ với
                             Bác sĩ sản khoa.</p>
-                        <p class="text-[14px] text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <p class="text-[16px] lg:text-[14px] text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Consequat risus </p>
                         <p class="text-[16px] font-bold">Ekip đón bé chuyên môn cao, có khả năng xử lý nhiều ca khó</p>
-                        <p class="text-[14px] text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <p class="text-[16px] lg:text-[14px] text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Consequat risus </p>
                         <p class="text-[16px] font-bold">Chăm lo cho mẹ và bé chu đáo - Cả nhà nhàn tênh</p>
-                        <p class="text-[14px] text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <p class="text-[16px] lg:text-[14px] text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Consequat risus </p>
-                        <div class="flex:lg justify-center:lg">
+                        <div class="flex justify-center lg:flex lg:justify-start">
                             <button
-                                class=" bg-orange-500  w-full lg:w-1/4 p-2 rounded-3xl shadow text-white text-sm lg:text-xs mt-3">
+                                class=" bg-orange-500  w-[40%] lg:w-1/4 p-3 rounded-3xl shadow text-white text-sm lg:text-xs mt-3 hover:bg-gradient-to-r from-green-400 to-blue-500">
                                 <i class="fa-solid fa-phone"></i> Liên hệ ngay </button>
                         </div>
                     </div>
@@ -767,7 +739,7 @@
 
     <section>
         <div class="container">
-            <footer class="flex flex-col lg:flex-row lg:justify-between lg:items-center w-full bg-sky-500 p-6">
+            <footer class="flex flex-col lg:flex-row lg:justify-between lg:items-center w-full bg-gradient-to-r from-green-400 to-blue-500">
                 <div
                     class=" flex flex-col lg:flex-row justify-center w-[85%] space-x-4 font-roboto mx-[7.5%] space-y-4">
                     <div class=" flex basis-1/4">
@@ -833,22 +805,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="grid grid-cols-1">
-                    <div>
-
-                    </div>
-                </div>
 
             </footer>
-
+            <div
+                class="flex flex-col justify-between items-center bg-gradient-to-r from-green-400 to-blue-500 text-white text-[13px] border-t-black p-4">
+                <div>
+                    <p>© Copyright 2022 Bệnh Viện Đa khoa Phương Đông. All rights reserved</p>
+                </div>
+            </div>
         </div>
 
     </section>
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="../public/output.js"></script>
+
 </body>
 
 </html>

@@ -5,5 +5,10 @@
     @apply absolute top-10 z-50 w-full bg-white text-center; 
 }
 .chamBut{
-    @apply w-3 h-3 rounded-full bg-blue-500 text-white;
+    @apply w-3 h-3 rounded-full bg-blue-500 text-white bg-gradient-to-r from-green-400 to-blue-500;
 }
+@layer utilities {
+    .clip-circle-custom {
+      clip-path: circle(77.5% at 49% 97%);
+    }
+  }
